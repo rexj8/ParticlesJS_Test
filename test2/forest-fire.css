@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,rgb(215, 219, 205),rgb(205, 212, 196),rgb(203, 207, 192),rgb(190, 193, 174));
+}
+
+#banner img{
+    width: 100%;
+    height: auto;
+    z-index:2;
+}
+
+#fire-flames {
+    /* border: 3px solid red; */
+    z-index: 10;
+    position: absolute;
+    transform: rotate(-7deg);
+  }
+
+@media screen and (min-width:1800px) and (max-width:2000px) {
+#fire-flames{
+    height: 38%;
+    width: 63%;
+    top: 25%;
+    left: 22%;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1799px) {
+#fire-flames{
+    height: 38%;
+    width: 63%;
+    top: 20%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1599px) {
+#fire-flames{
+    height: 32%;
+    width: 63%;
+    top: 20%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1399px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 19%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:1026px) and (max-width:1199px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 24%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1025px) {
+#fire-flames{
+    height: 16%;
+    width: 63%;
+    top: 14%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:800px) and (max-width:999px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 18%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:761px) and (max-width:799px) {
+#fire-flames{
+    height: 13%;
+    width: 59%;
+    top: 17%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:760px) {
+#fire-flames{
+    height: 24%;
+    width: 59%;
+    top: 18%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:599px) {
+#fire-flames{
+    height: 12%;
+    width: 59%;
+    top: 13%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:350px) and (max-width:399px) {
+#fire-flames{
+    height: 9%;
+    width: 59%;
+    top: 13%;
+    left: 25%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:349px) {
+#fire-flames{
+    height: 12%;
+    width: 59%;
+    top: 15%;
+    left: 25%;
+    }
+}
+  
+@media screen and (min-width:768px) {
+    .side-bar{
+        overflow-x: hidden;
+        padding: 8px 0;
+        float:left;
+        width:18%;
+        margin-top: 70px;
+        /* margin-bottom: 20px; */
+        padding-left: 1%;
+    }
+    
+    .side-bar a {
+        padding: 6px 8px 6px 42px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #2196F3;
+        display: block;
+        font-family :Lato, sans-serif;
+        font-size: 1.2em;
+    }
+    
+    .side-bar a:hover {
+        color: rgb(121, 71, 6);
+        text-decoration: underline;
+    }
+    
+    .v-ruler{
+        border-left: 2px solid rgb(121, 71, 6);
+        height: 500px;
+        float:left;
+        margin-left: 1%;
+        margin-top: 40px;
+    }
+    
+    .content {
+        /* margin: 20px; */
+        /* padding: 50px; */
+        text-align: justify;
+        color:rgb(31, 29, 29);
+        font-family :Lato, sans-serif;
+        line-height: 180%;
+        /* background-color: red; */
+        /* margin-left: 80px;  */
+        margin-right: 0px;
+        margin-top: 50px;
+        padding: 0px 30px;
+        float:right;
+        width:80%;
+        padding-bottom: 4%;
+    }
+    
+    .content h1{
+        font-size: 4em;
+        color:rgb(121, 71, 6);
+        /* font-family: "Lato"; */
+    }
+}
+
+@media screen and (max-width:767px) {
+    .side-bar{
+        display:none;
+    }
+    
+    .side-bar a {
+        display: none;
+    }
+    
+    .side-bar a:hover {
+        color: rgb(121, 71, 6);
+        text-decoration: underline;
+    }
+    
+    .content {
+        /* margin: 20px; */
+        /* padding: 50px; */
+        text-align: justify;
+        color:rgb(31, 29, 29);
+        font-family :Lato, sans-serif;
+        line-height: 180%;
+        /* background-color: red; */
+        /* margin-left: 80px;  */
+        margin-right: 0px;
+        margin-top: 50px;
+        padding: 0px 30px;
+        padding-bottom: 4%;
+    }
+    
+    .content h1{
+        font-size: 2.5em;
+        color:rgb(121, 71, 6);
+        /* font-family: "Lato"; */
+    }
+}
+
+ul{
+    list-style-position: outside;
+}
+
+.ruler{
+    height:1px;
+    border:none;
+    background:  rgb(90, 90, 90);
+}
+
+.ytbvdo{
+    border-color: aqua;
+    background-color: aqua;
+    height:200px;
+    width:200px;
+    /* float:both; */
+}
