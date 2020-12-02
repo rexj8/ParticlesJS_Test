@@ -23,10 +23,10 @@ particlesJS('snow-fall',
         }
       },
       "color": {
-        "value": ["#FFAA00" , "#FFE700" ,"#FF7B00","#FFDAB8","#FFED9E"]
+        "value": ["#000000"]
       },
       "shape": {
-        "type": "polygon",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#FFDC00"
@@ -70,7 +70,7 @@ particlesJS('snow-fall',
       "move": {
         "enable": true,
         "speed": 5,
-        "direction": "top",
+        "direction": "bottom-right",
         "random": false,
         "straight": false,
         "out_mode": "out",
