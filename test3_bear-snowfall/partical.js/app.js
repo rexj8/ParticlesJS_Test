@@ -23,7 +23,7 @@ particlesJS('snow-fall',
         }
       },
       "color": {
-        "value": ["#F2FFFD","#ffffff","95FFEF"]
+        "value": ["#F2FFFD","#ffffff","95FFEF","3DCFB9"]
       },
       "shape": {
         "type": "circle",
