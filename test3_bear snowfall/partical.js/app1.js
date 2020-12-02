@@ -11,7 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS('snow-fall',
+particlesJS('snow-fall1',
   
   {
     "particles": {
@@ -26,7 +26,7 @@ particlesJS('snow-fall',
         "value": ["#FFAA00" , "#FFE700" ,"#FF7B00","#FFDAB8","#FFED9E"]
       },
       "shape": {
-        "type": "circle",
+        "type": "star",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -69,8 +69,8 @@ particlesJS('snow-fall',
       },
       "move": {
         "enable": true,
-        "speed": 5,
-        "direction": "bottom-right",
+        "speed": 3,
+        "direction": "top-left",
         "random": false,
         "straight": false,
         "out_mode": "out",
