@@ -23,7 +23,7 @@
     #snow-fall {
         position:absolute;
         width:100%;
-        height
+        height:auto;
         top:0;
         
     }
@@ -35,5 +35,15 @@
 
     <script src="partical.js/particles1.js"></script>
     <script src="partical.js/app.js"></script>
+
+    <script>
+        $(".sidebar").css({'height':($(".content").height()+'px'});
+
+        $(".sidebar").height($(".content").height());
+
+        var highestCol = Math.max($('.sidebar').height(),$('.content').height());
+        $('.sidebar').height(highestCol);
+        
+    </script>
 </body>
 </html>
