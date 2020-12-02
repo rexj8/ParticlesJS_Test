@@ -69,7 +69,7 @@ particlesJS('snow-fall',
       },
       "move": {
         "enable": true,
-        "speed": 3,
+        "speed": 5,
         "direction": "bottom-right",
         "random": false,
         "straight": false,
