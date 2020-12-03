@@ -51,7 +51,7 @@ particlesJS('star',
         }
       },
       "size": {
-        "value": 1,
+        "value": 0.9,
         "random": false,
         "anim": {
           "enable": true,
