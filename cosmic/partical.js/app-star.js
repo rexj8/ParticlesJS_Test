@@ -55,7 +55,7 @@ particlesJS('star',
         "random": false,
         "anim": {
           "enable": true,
-          "speed": 4,
+          "speed": 3,
           "size_min": 0.1,
           "sync": false
         }
