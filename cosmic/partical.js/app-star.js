@@ -51,11 +51,11 @@ particlesJS('star',
         }
       },
       "size": {
-        "value": 2,
-        "random": true,
+        "value": 1,
+        "random": false,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true,
+          "speed": 4,
           "size_min": 0.1,
           "sync": false
         }
@@ -70,9 +70,9 @@ particlesJS('star',
       "move": {
         "enable": true,
         "speed": 5,
-        "direction": "bottom-right",
+        "direction": "top-right",
         "random": false,
-        "straight": false,
+        "straight": true,
         "out_mode": "out",
         "attract": {
           "enable": false,
