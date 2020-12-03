@@ -69,7 +69,7 @@ particlesJS('star',
       },
       "move": {
         "enable": true,
-        "speed": 15,
+        "speed": 10,
         "direction": "top-right",
         "random": false,
         "straight": true,
